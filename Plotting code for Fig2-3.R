@@ -43,7 +43,7 @@ snv_type = ggplot(plot_data, aes(fill = panel, y = count, x = type)) +
   theme_bw() +
   theme(plot.margin=unit(rep(1,4),'cm'),
         line = element_line(size = 1,linetype = 2),
-        panel.grid = element_blank(),   			## 去除背景所有网格线	
+        panel.grid = element_blank(),   				
         panel.border = element_blank(),
         plot.title = element_text(size = 15,color = "black",vjust = 2),
         axis.line = element_line(size = 0.2,linetype = "solid",color = "black"),
