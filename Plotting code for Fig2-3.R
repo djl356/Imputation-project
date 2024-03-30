@@ -10,7 +10,7 @@ hrc$panel = "HRC+UK10K"
 topmed$panel = "TOPMed"
 wgs$panel = "WGS"
 plot_data = rbind(hrc,topmed,wgs)
-plot_data = plot_data[type!="Total",]
+plot_data = plot_data[type!="Total",] 
 
 # create data labels
 plot_data$count_chr = as.character(plot_data$count)
